@@ -50,7 +50,24 @@ secoes.forEach(secao => observadorSecoes.observe(secao));
 document.querySelectorAll('.foto-botao').forEach(botao => {
   botao.addEventListener('click', () => {
     const imagem = botao.querySelector('img');
-    if (!imagem) return;
+    if (!imagem) {
+      const seletorArquivo = document.createElement('input');
+      seletorArquivo.type = 'file';
+      seletorArquivo.accept = 'image/*';
+      seletorArquivo.addEventListener('change', () => {
+        const arquivo = seletorArquivo.files[0];
+        if (!arquivo) return;
+
+        const novaImagem = document.createElement('img');
+        novaImagem.src = URL.createObjectURL(arquivo);
+        novaImagem.alt = arquivo.name;
+        botao.replaceChildren(novaImagem);
+        botao.click();
+      }, { once: true });
+      seletorArquivo.click();
+      return;
+    }
+
     visualizador.querySelector('img').src = imagem.src;
     visualizador.querySelector('img').alt = imagem.alt;
     visualizador.querySelector('p').textContent = botao.closest('figure').querySelector('figcaption').textContent;
