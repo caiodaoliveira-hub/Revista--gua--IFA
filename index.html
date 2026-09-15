@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Revista digital escolar que reúne projetos de Biologia, Matemática, Química e Tecnociência.">
+  <meta name="theme-color" content="#073b4c">
+  <title>Revista Ciências em Ação</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+
+  <header class="topo" id="inicio">
+    <a class="marca" href="#inicio" aria-label="Voltar ao início">
+      <span class="marca-simbolo" aria-hidden="true">C</span>
+      <span><strong>Ciências</strong><small>em ação</small></span>
+    </a>
+
+    <button class="menu-botao" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu-principal">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="menu" id="menu-principal" aria-label="Navegação principal">
+      <a href="#biologia">Biologia</a>
+      <a href="#matematica">Matemática</a>
+      <a href="#quimica">Química</a>
+    </nav>
+  </header>
+
+  <main id="conteudo">
+    <section class="abertura" aria-labelledby="titulo-principal">
+      <div class="abertura-conteudo revelar">
+        <p class="edicao">REVISTA DIGITAL • PROJETOS ESCOLARES</p>
+        <h1 id="titulo-principal">Conhecimento que transforma o nosso mundo.</h1>
+        <p class="abertura-texto">Um espaço para registrar descobertas, estratégias, experimentos e as produções dos estudantes.</p>
+        <a class="botao" href="#biologia">Explorar os projetos <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="painel-destaque revelar" aria-label="Áreas da revista">
+        <span class="orbita orbita-1"></span>
+        <span class="orbita orbita-2"></span>
+        <div class="painel-centro">3<small>componentes</small></div>
+        <p>Ciência, lógica e criatividade reunidas em um só lugar.</p>
+      </div>
+    </section>
+
+    <section class="componente biologia" id="biologia" aria-labelledby="titulo-biologia">
+      <div class="numero revelar">01</div>
+      <div class="componente-cabecalho revelar">
+        <p class="rotulo">VIDA • AMBIENTE • CONSCIÊNCIA</p>
+        <h2 id="titulo-biologia">Biologia e Sustentabilidade em Ação</h2>
+        <p>Registre aqui investigações sobre os seres vivos, o ambiente e atitudes sustentáveis desenvolvidas pelos estudantes.</p>
+      </div>
+      <div class="galeria revelar" aria-label="Galeria de Biologia e Sustentabilidade">
+        <figure class="foto foto-grande">
+          <button class="foto-botao" type="button" aria-label="Ampliar foto 1 de Biologia">
+            <span class="foto-icone" aria-hidden="true">＋</span><span>Adicionar foto principal</span>
+          </button>
+          <figcaption>Projeto ou atividade em destaque</figcaption>
+        </figure>
+        <figure class="foto">
+          <button class="foto-botao" type="button" aria-label="Ampliar foto 2 de Biologia">
+            <span class="foto-icone" aria-hidden="true">＋</span><span>Adicionar foto</span>
+          </button>
+          <figcaption>Investigação e aprendizagem</figcaption>
+        </figure>
+        <figure class="foto">
+          <button class="foto-botao" type="button" aria-label="Ampliar foto 3 de Biologia">
+            <span class="foto-icone" aria-hidden="true">＋</span><span>Adicionar foto</span>
+          </button>
+          <figcaption>Resultados da turma</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="componente matematica" id="matematica" aria-labelledby="titulo-matematica">
+      <div class="numero revelar">02</div>
+      <div class="componente-cabecalho revelar">
+        <p class="rotulo">ESTRATÉGIAS • RACIOCÍNIO • DESCOBERTAS</p>
+        <h2 id="titulo-matematica">Matemática: Resolução de Problemas</h2>
+        <p>Apresente desafios, diferentes estratégias de resolução e registros que valorizem o raciocínio e a argumentação matemática.</p>
+      </div>
+      <div class="galeria revelar" aria-label="Galeria de Matemática">
+        <figure class="foto foto-grande">
+          <button class="foto-botao" type="button" aria-label="Ampliar foto 1 de Matemática">
+            <span class="foto-icone" aria-hidden="true">＋</span><span>Adicionar foto principal</span>
+          </button>
+          <figcaption>Problema investigado pela turma</figcaption>
+        </figure>
+        <figure class="foto">
+          <button class="foto-botao" type="button" aria-label="Ampliar foto 2 de Matemática">
+            <span class="foto-icone" aria-hidden="true">＋</span><span>Adicionar foto</span>
+          </button>
+          <figcaption>Estratégias dos estudantes</figcaption>
+        </figure>
+        <figure class="foto">
+          <button class="foto-botao" type="button" aria-label="Ampliar foto 3 de Matemática">
+            <span class="foto-icone" aria-hidden="true">＋</span><span>Adicionar foto</span>
+          </button>
+          <figcaption>Socialização das soluções</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="componente quimica" id="quimica" aria-labelledby="titulo-quimica">
+      <div class="numero revelar">03</div>
+      <div class="componente-cabecalho revelar">
+        <p class="rotulo">MATÉRIA • EXPERIMENTAÇÃO • TECNOLOGIA</p>
+        <h2 id="titulo-quimica">Química e Tecnociência</h2>
+        <p>Compartilhe experimentos, observações e soluções tecnológicas que conectem conceitos científicos às situações do cotidiano.</p>
+      </div>
+      <div class="galeria revelar" aria-label="Galeria de Química e Tecnociência">
+        <figure class="foto foto-grande">
+          <button class="foto-botao" type="button" aria-label="Ampliar foto 1 de Química">
+            <span class="foto-icone" aria-hidden="true">＋</span><span>Adicionar foto principal</span>
+          </button>
+          <figcaption>Experimento em destaque</figcaption>
+        </figure>
+        <figure class="foto">
+          <button class="foto-botao" type="button" aria-label="Ampliar foto 2 de Química">
+            <span class="foto-icone" aria-hidden="true">＋</span><span>Adicionar foto</span>
+          </button>
+          <figcaption>Etapas da investigação</figcaption>
+        </figure>
+        <figure class="foto">
+          <button class="foto-botao" type="button" aria-label="Ampliar foto 3 de Química">
+            <span class="foto-icone" aria-hidden="true">＋</span><span>Adicionar foto</span>
+          </button>
+          <figcaption>Produção e resultados</figcaption>
+        </figure>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p><strong>Revista Ciências em Ação</strong></p>
+    <p>Biologia • Matemática • Química e Tecnociência</p>
+    <a href="#inicio">Voltar ao início ↑</a>
+  </footer>
+
+  <dialog class="visualizador" aria-label="Visualizador de imagem">
+    <button class="fechar" type="button" aria-label="Fechar imagem">×</button>
+    <img src="" alt="">
+    <p></p>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
