@@ -37,6 +37,72 @@ button { font: inherit; }
 }
 .skip-link:focus { top: 1rem; }
 
+.cabecalho-institucional {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: .75rem clamp(1.25rem, 5vw, 5.5rem);
+  background: linear-gradient(135deg, #0c3b4d, #0a2e3d);
+  color: #fff;
+  border-bottom: 1px solid rgba(255,255,255,.12);
+}
+.cabecalho-logos {
+  display: flex;
+  align-items: center;
+  gap: .75rem;
+  flex-shrink: 0;
+}
+.cabecalho-logos img {
+  width: 52px;
+  height: 52px;
+  object-fit: contain;
+  border-radius: 12px;
+  background: rgba(255,255,255,.08);
+  padding: .2rem;
+}
+.cabecalho-texto {
+  display: grid;
+  gap: .18rem;
+  line-height: 1.2;
+}
+.sem-imagens {
+  width: 100%;
+}
+.cabecalho-texto strong {
+  font-size: .95rem;
+  letter-spacing: .04em;
+}
+.cabecalho-texto span {
+  color: rgba(255,255,255,.8);
+  font-size: .74rem;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+.cabecalho-texto small {
+  color: rgba(255,255,255,.8);
+  font-size: .68rem;
+}
+
+.rodape {
+  background: var(--azul);
+  padding: 0;
+  color: white;
+}
+.rodape .cabecalho-institucional {
+  border-bottom: 1px solid rgba(255,255,255,.12);
+  background: linear-gradient(135deg, #0c3b4d, #0a2e3d);
+}
+.rodape-conteudo {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: .15rem 2rem;
+  align-items: center;
+  padding: 2.5rem clamp(1.25rem, 7vw, 8rem);
+}
+.rodape-conteudo p { margin: 0; }
+.rodape-conteudo p:nth-child(2) { color: rgba(255,255,255,.65); font-size: .86rem; }
+.rodape-conteudo a { grid-column: 2; grid-row: 1 / 3; text-decoration: none; font-weight: 800; }
+
 .topo {
   position: sticky;
   top: 0;

@@ -5,6 +5,14 @@ const secoes = document.querySelectorAll('.componente');
 const elementosRevelar = document.querySelectorAll('.revelar');
 const visualizador = document.querySelector('.visualizador');
 const fecharVisualizador = document.querySelector('.fechar');
+const voltarInicio = document.querySelector('#voltar-inicio');
+
+if (voltarInicio) {
+  voltarInicio.addEventListener('click', evento => {
+    evento.preventDefault();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+}
 
 function alternarMenu() {
   const aberto = menu.classList.toggle('aberto');
