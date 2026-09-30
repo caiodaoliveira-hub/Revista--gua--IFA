@@ -1,46 +1,52 @@
 # Água
 
-Projeto de revista digital escolar dedicado ao tema da água, com foco em sustentabilidade, ciência e educação ambiental.
+> Revista digital escolar sobre sustentabilidade, ciência e consciência ambiental.
 
-## Descrição
+Uma experiência visual que reúne pesquisa, criatividade e conhecimento para refletir sobre a importância da água em nossas vidas e no planeta.
 
-Esta página apresenta uma revista digital com seções de:
+## 🌊 Sobre o projeto
+
+A revista digital foi criada para apresentar trabalhos e descobertas em diferentes áreas do conhecimento, com foco especial no tema da água. A proposta conecta:
+
 - Biologia
 - Matemática
 - Química e Tecnociência
 
-O tema principal é a água e o impacto das escolhas humanas no meio ambiente, com foco em conscientização, investigação e aprendizagem.
+A ideia central é mostrar como o uso consciente da água, a educação ambiental e a investigação científica podem transformar a realidade cotidiana.
 
-## Estrutura do projeto
+## 📁 Estrutura do projeto
 
-- `index.html` — estrutura da página
-- `style.css` — estilos visuais e responsividade
-- `script.js` — interações da página, menu e visualizador de imagens
-- `revista-agua/` — imagens e arquivos visuais do projeto
+- `index.html` — estrutura principal da revista
+- `style.css` — estilos visuais, layout e responsividade
+- `script.js` — interações, menu e abertura de imagens
+- `revista-agua/` — imagens e materiais visuais do projeto
 
-## Como visualizar
+## ▶️ Como visualizar
 
-1. Abra o arquivo `index.html` em um navegador.
-2. Ou execute um servidor local na pasta do projeto, por exemplo:
+Você pode abrir o projeto diretamente no navegador ou rodar um servidor local:
 
 ```bash
 python -m http.server 8000
 ```
 
-Em seguida, acesse:
+Depois acesse:
 
 ```text
 http://localhost:8000
 ```
 
-## Funcionalidades
+## ✨ Funcionalidades
 
-- Menu de navegação por seção
-- Galeria de imagens com visualização ampliada
-- Layout responsivo para desktop e mobile
+- Navegação por seções da revista
+- Galeria de imagens com ampliação
+- Layout adaptável para desktop e mobile
 - Botão de retorno ao início
-- Estilo visual moderno e temático
+- Visual moderno e temático, com foco em educação ambiental
 
-## Observações
+## 🎯 Objetivo
 
-Este projeto foi desenvolvido como uma revista digital escolar, com foco em apresentação visual e organização de conteúdos acadêmicos.
+Este projeto busca divulgar atividades escolares, pensar criticamente sobre o consumo e a preservação da água e valorizar a produção dos estudantes em um ambiente visualmente atrativo e informativo.
+
+## 📝 Observação
+
+A revista foi desenvolvida como uma apresentação digital escolar, com foco em clareza, estética e acolhimento dos conteúdos científicos e criativos.
